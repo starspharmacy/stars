@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap");
+* {
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+  background-color: #051d40;
+  color: #ffff;
+  padding: 0px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  width: 15%;
+  opacity: 0.2;
+}
+img {
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #a3b3d4;
+  -moz-box-shadow: 5px 5px 5px #a3b3d4;
+  -webkit-box-shadow: 5px 5px 5px #a3b3d4;
+  -khtml-box-shadow: 5px 5px 5px #a3b3d4;
+}
+.profile_picture {
+  margin-top: 40px;
+}
+.location {
+  padding: 10px;
+  opacity: 0.5;
+  user-select: none;
+}
+.name {
+  font-size: 30px;
+  user-select: none;
+}
+.discription {
+  padding: 10px;
+}
+.social-media {
+  padding: 20px 15px;
+  margin: 0px auto;
+  display: block;
+  width: 80%;
+  margin: 0px auto;
+  user-select: none;
+}
+.branches {
+  border: 1px solid #372948;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #a3b3d4;
+  -moz-box-shadow: 1px 1px 1px #a3b3d4;
+  -webkit-box-shadow: 1px 1px 1px #a3b3d4;
+  -khtml-box-shadow: 1px 1px 1px #a3b3d4;
+  background: #372948;
+  font-size: 25px;
+  padding: 20px 20px;
+  margin: 5px auto;
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+.branches:hover {
+  background: #0c5411;
+  border-color: #0c5411;
+}
+.footer {
+  padding: 10px 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.social-media a{
+    position:relative;
+    opacity: 0;
+    transition-property: all;
+}
+.social-media a.active{
+    opacity: 1;
+    top:0px !important;
+}
+@media only screen and (max-width: 320px) {
+  img {
+    height: 150px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .branches {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  img {
+    height: 150px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .branches {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 570px) {
+  img {
+    height: 160px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .branches {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (width: 768px) {
+  img {
+    height: 190px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .branches {
+    font-size: 20px;
+  }
+}
